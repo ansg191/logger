@@ -1,4 +1,4 @@
-module logger
+module golang.anshulg.com/shared/logger
 
 go 1.18
 
