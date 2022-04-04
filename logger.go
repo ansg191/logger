@@ -15,5 +15,6 @@ func SetupLogger() (*zap.Logger, error) {
 	}
 
 	_ = zap.ReplaceGlobals(logger)
+
 	return logger, nil
 }
