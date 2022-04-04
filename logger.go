@@ -1,6 +1,8 @@
 package logger
 
-import "go.uber.org/zap"
+import (
+	"go.uber.org/zap"
+)
 
 func SetupLogger() (*zap.Logger, error) {
 	var logger *zap.Logger
